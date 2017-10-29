@@ -4,12 +4,10 @@
 public class LC3 {
     public static void main(String[] args) {
         String s = "abba";
-        System.out.println(new Solution().lengthOfLongestSubstring(s));
+        System.out.println(new LC3().lengthOfLongestSubstring(s));
     }
-}
 
 
-class Solution {
     public int lengthOfLongestSubstring(String s) {
         int[] pos = new int[256];
         int start = 0;

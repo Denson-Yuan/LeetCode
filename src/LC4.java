@@ -1,12 +1,14 @@
+/*
+ * 寻找两个有序数组的中位数
+ */
+
 public class LC4 {
     public static void main(String[] args) {
         int[] n1 = {1,3};
         int[] n2 = {2};
-        System.out.println(new SolutionLC4().findMedianSortedArrays(n1,n2));
+        System.out.println(new LC4().findMedianSortedArrays(n1,n2));
     }
-}
 
-class SolutionLC4 {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int len1 = nums1.length;
         int len2 = nums2.length;
