@@ -1,5 +1,5 @@
 /**
- * ×î³¤»ØÎÄ×Ó´®
+ * æœ€é•¿å›æ–‡å­ä¸²
  */
 public class LC5 {
     public static void main(String[] args) {
@@ -23,7 +23,7 @@ public class LC5 {
                 radius = r - 1;
                 center = c;
             }
-            //ÈôÁ¬ĞøÁ½¸ö×Ö·ûÏàÍ¬£¬¿¼ÂÇÒÔËüÃÇµÄÖĞ¼äÎ»ÖÃÎª¶Ô³ÆÖĞĞÄ
+            //è‹¥è¿ç»­ä¸¤ä¸ªå­—ç¬¦ç›¸åŒï¼Œè€ƒè™‘ä»¥å®ƒä»¬çš„ä¸­é—´ä½ç½®ä¸ºå¯¹ç§°ä¸­å¿ƒ
             if (c!=(int)c || c + 1 < s.length() && s.charAt((int)c) == s.charAt((int)(c + 1))) {
                 c = c + 0.5;
             }
@@ -34,7 +34,7 @@ public class LC5 {
     }
 }
 
-/* Ã»¿¼ÂÇ³¤¶ÈÎªÅ¼ÊıµÄÇé¿ö
+/* æ²¡è€ƒè™‘é•¿åº¦ä¸ºå¶æ•°çš„æƒ…å†µ
     public String longestPalindrome(String s) {
         if (s.length() == 0) return "";
         int maxj = 0, maxi = 0;
