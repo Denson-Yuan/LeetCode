@@ -21,16 +21,13 @@ public class LC3 {
         }
         return max;
     }
-}
 
-
-/*version 1
-class Solution {
-    public int lengthOfLongestSubstring(String s) {
-        if(s.length()==0) return 0;
+    //  超时
+    public int lengthOfLongestSubstring1(String s) {
+        if (s.length() == 0) return 0;
         for (int len = s.length(); len > 1; len--) {
-            for(int i = 0;i+len-1<s.length();i++){
-                if(noRepeating(s.substring(i,i+len))) {
+            for (int i = 0; i + len - 1 < s.length(); i++) {
+                if (noRepeating(s.substring(i, i + len))) {
                     return len;
                 }
             }
@@ -50,4 +47,3 @@ class Solution {
         return true;
     }
 }
-*/

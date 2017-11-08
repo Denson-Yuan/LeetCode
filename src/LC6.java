@@ -1,7 +1,7 @@
 public class LC6 {
     public static void main(String[] args) {
         String s = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-        System.out.println(new LC6().convert(s,1));
+        System.out.println(new LC6().convert(s, 1));
     }
 
     public String convert(String s, int numRows) {
