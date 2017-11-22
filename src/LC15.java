@@ -1,3 +1,7 @@
+/**
+ * 求数组中和为0的三元组，无重复
+ */
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
