@@ -1,3 +1,5 @@
+package easy;
+
 /**
  * Implement strStr()
  * 寻找子串位置

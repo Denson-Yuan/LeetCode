@@ -1,3 +1,5 @@
+package easy;
+
 /**
  * Remove Duplicates from Sorted Array
  * 移除有序数组中的重复元素

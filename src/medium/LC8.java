@@ -1,3 +1,5 @@
+package medium;
+
 /**
  * 字符串转换成整数
  */

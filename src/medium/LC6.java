@@ -1,3 +1,5 @@
+package medium;
+
 public class LC6 {
     public static void main(String[] args) {
         String s = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";

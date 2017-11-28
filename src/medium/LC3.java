@@ -1,3 +1,5 @@
+package medium;
+
 /**
  * 最大无重复子串
  */

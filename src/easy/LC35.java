@@ -1,4 +1,4 @@
-/**
+package easy; /**
  * Search Insert Position
  * 采用二分查找
  */

@@ -1,3 +1,5 @@
+package medium;
+
 /**
  * 最长回文子串
  */

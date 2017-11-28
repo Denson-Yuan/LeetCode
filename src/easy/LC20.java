@@ -1,4 +1,4 @@
-/**
+package easy; /**
  * Valid Parentheses
  * 判断括号是否正确配对
  */

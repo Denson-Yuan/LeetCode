@@ -1,4 +1,4 @@
-/**
+package medium; /**
  * Generate Parentheses
  * 生成配对括号
  */

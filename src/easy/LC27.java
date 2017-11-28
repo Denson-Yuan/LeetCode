@@ -1,3 +1,5 @@
+package easy;
+
 /**
  * Remove Element
  * 从数组中移除元素
