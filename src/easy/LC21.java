@@ -6,55 +6,27 @@ package easy;
  */
 public class LC21 {
     public static void main(String[] args) {
-        ListNode a1 = new ListNode(1);
-        ListNode a2 = new ListNode(3);
-        ListNode a3 = new ListNode(5);
-        ListNode a4 = new ListNode(7);
-        a1.next = a2;
-        a2.next = a3;
-        a3.next = a4;
+        int[] num1 = {1, 3, 5, 7};
+        ListNode a1 = ListNode.buildListFromArray(num1);
 
-        ListNode b1 = new ListNode(2);
-        ListNode b2 = new ListNode(3);
-        ListNode b3 = new ListNode(6);
-        ListNode b4 = new ListNode(8);
-        b1.next = b2;
-        b2.next = b3;
-        b3.next = b4;
+        int[] num2 = {2, 3, 6, 8};
+        ListNode b1 = ListNode.buildListFromArray(num2);
 
-        ListNode ta1 = a1;
         System.out.print("before a1:");
-        while (ta1 != null) {
-            System.out.print(ta1.val+" ");
-            ta1 = ta1.next;
-        }
-        ListNode tb1 = b1;
-        System.out.print("\nbefore b1:");
-        while (tb1 != null) {
-            System.out.print(tb1.val+" ");
-            tb1 = tb1.next;
-        }
+        ListNode.printList(a1);
+
+        System.out.print("before b1:");
+        ListNode.printList(b1);
 
         ListNode r = new LC21().mergeTwoLists(a1, b1);
-        System.out.print("\nr:");
-        while (r != null) {
-            System.out.print(r.val+" ");
-            r = r.next;
-        }
+        System.out.print("r:");
+        ListNode.printList(r);
 
-        ListNode ta2 = a1;
-        System.out.print("\nafter a1:");
-        while (ta2 != null) {
-            System.out.print(ta2.val+" ");
-            ta2 = ta2.next;
-        }
+        System.out.print("after a1:");
+        ListNode.printList(a1);
 
-        ListNode tb2 = b1;
-        System.out.print("\nafter b1:");
-        while (tb2 != null) {
-            System.out.print(tb2.val+" ");
-            tb2 = tb2.next;
-        }
+        System.out.print("after b1:");
+        ListNode.printList(b1);
     }
 
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
